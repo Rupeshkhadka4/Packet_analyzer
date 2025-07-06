@@ -1,11 +1,13 @@
 A simple CLI-based network traffic analyzer that captures and analyzes packets in real time. It allows filtering by domain or IP address and displays live statistics for TCP, UDP, ICMP, and other protocols.
 
 🧠 Overview
-This project includes two versions:
+##This project includes two versions:
 
 ✅ Python version : Uses scapy to sniff and analyze packets.
 ✅ Bash version : Uses tcpdump, dig, and shell scripting for packet analysis.
-Both versions:
+
+
+##Both versions:
 
 Accept a domain or IP input from the user
 Start capturing only traffic related to that target
@@ -19,7 +21,7 @@ Resolves domains to IPs automatically
 Tracks: TCP, UDP, ICMP, Other
 Displays stats every second
 Clean shutdown on Ctrl+C
-🛠️ Requirements
+##🛠️ Requirements
 
 pip install scapy
 Run as administrator/root for packet capture: 
@@ -37,7 +39,7 @@ Uses tcpdump, dig, and awk for packet capture & analysis
 Resolves domain names to IPs
 Shows live packet count updates
 No background threads or race conditions
-🛠️ Requirements
+##🛠️ Requirements
 Install these tools once:
 
 Debian/Ubuntu:
